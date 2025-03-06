@@ -31,10 +31,8 @@ ingredients_list = st.multiselect (
 )
 
 if ingredients_list:
-    #st.write(ingredients_list)
-    #st.text(ingredients_list)
-
-    ingredients_string=''
+    ingredients_string= ''
+    
     for fruit_choosen in ingredients_list:
         ingredients_string += fruit_choosen + ' '
 
